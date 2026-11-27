@@ -221,3 +221,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# project: large or secret files
+runs/
+models/
+results/
+hf_cache/
+envs/
+logs/
+*.safetensors
+*.tar.gz
+*.bak*
+.env
+env.sh
